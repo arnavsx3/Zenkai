@@ -1,3 +1,5 @@
+**Live demo: [https://synapes-dev.online](https://synapes-dev.online)**
+
 <p align="center">
   <img src="docs/assets/zenkai-banner.svg" alt="Zenkai — detect the break, understand the cause, verify the comeback" width="100%" />
 </p>
