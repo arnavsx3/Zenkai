@@ -22,11 +22,9 @@
 
 ## Watch the demo
 
-**[Watch or download the 3-minute Zenkai demo](https://github.com/arnavsx3/Zenkai/raw/refs/heads/main/docs/assets/zenkai-demo-3min.mp4)**
+https://github.com/user-attachments/assets/5edfc1fb-8db7-4817-b7cf-fe6d81241b2a
 
-[![Watch the 3-minute Zenkai demo](docs/assets/zenkai-console.jpg)](https://github.com/arnavsx3/Zenkai/raw/refs/heads/main/docs/assets/zenkai-demo-3min.mp4)
-
-See the running console and separate demo target, failure injection, and the recovery workflow. Click the preview or link above to open the MP4 recording.
+The inline player shows the running console and separate demo target, failure injection, and the recovery workflow. Press play to start the three-minute recording.
 
 ## Try the live demo — no password needed
 
