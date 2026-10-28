@@ -1,3 +1,4 @@
+Built for UniHackathon@2026
 **Live demo: [https://synapes-dev.online](https://synapes-dev.online)**
 
 <p align="center">
