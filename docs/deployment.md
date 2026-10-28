@@ -23,7 +23,7 @@ before waiting for certificate issuance.
 Allow inbound TCP 80 and 443 publicly and SSH 22 from the operator's IP only.
 All existing app and telemetry host ports bind to loopback. Caddy terminates
 TLS, redirects HTTP, renews certificates, and streams API events directly.
-The demo enables anonymous Grafana viewing and automatically opens console sessions; judges need no passwords.
+The demo enables anonymous Grafana viewing and automatically opens console sessions; visitors need no passwords.
 
 ## Install and deploy
 

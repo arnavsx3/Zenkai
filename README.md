@@ -34,7 +34,7 @@ The inline player shows the running console and separate demo target, failure in
 | **[Separate demo target](https://demo.synapes-dev.online/campus)** | The fictional university portal that Zenkai monitors and repairs |
 | **[Live Grafana dashboard](https://grafana.synapes-dev.online/d/zenkai-overview)** | Real request rates, latency, errors, and service logs |
 
-**Judges can explore and run the demonstration immediately. No account, sign-in, or password is required.** The home page includes a six-step walkthrough with shortcuts to the target, Failure lab, incidents, evidence, and live dashboard.
+**Visitors can explore and run the demonstration immediately. No account, sign-in, or password is required.** The home page includes a six-step walkthrough with shortcuts to the target, Failure lab, incidents, evidence, and live dashboard.
 
 1. Open the console and demo target side by side.
 2. In **Failure lab**, start the three-minute traffic test.
@@ -96,7 +96,7 @@ These screenshots show the running local V1. Their metric values are observation
 - [Demo guide](#demo-guide) · [Verification](#verification)
 - [Repository map](#repository-map) · [API overview](#api-overview)
 - [Connecting another target](#connecting-another-target) · [Troubleshooting](#troubleshooting)
-- [Challenge alignment](#challenge-alignment) · [V1 boundaries](#v1-boundaries) · [Contributing](#contributing)
+- [System alignment](#system-alignment) · [V1 boundaries](#v1-boundaries) · [Contributing](#contributing)
 
 ## Architecture
 
@@ -624,7 +624,7 @@ docker compose exec alloy alloy validate /etc/alloy/config.alloy
 
 Inspect diagnostics locally and redact sensitive content before sharing. See [observability/README.md](observability/README.md) for collection checks and service-specific details.
 
-## Challenge alignment
+## System alignment
 
 | System requirement | Demonstrated implementation |
 | --- | --- |
