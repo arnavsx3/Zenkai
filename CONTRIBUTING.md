@@ -1,6 +1,6 @@
 # Contributing to Zenkai
 
-Zenkai is a six-hour hackathon project. Keep changes small, reviewable, and runnable.
+Zenkai is a compact recovery demonstration. Keep changes small, reviewable, and runnable.
 
 ## Commit and push cadence
 

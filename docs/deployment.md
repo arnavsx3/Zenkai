@@ -2,7 +2,7 @@
 
 This deployment runs the complete V1 on a dedicated Linux host with Docker
 Engine and the Compose plugin. Allow roughly 2 vCPUs, 4 GB RAM, and 20 GB disk.
-It is intended for a temporary hackathon demonstration, not an HA service.
+It is intended for a temporary demonstration environment, not an HA service.
 
 ## Public addresses
 

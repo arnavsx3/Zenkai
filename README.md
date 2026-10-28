@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI-powered incident diagnosis and verified recovery for the services people depend on.</strong><br />
-  Built for CODE E FIESTA 2026 · Challenge 4: The Self-Healing AI Automation System
+  A demonstration of AI-assisted incident diagnosis and verified recovery
 </p>
 
 <p align="center">
@@ -173,7 +173,7 @@ Consider a gateway that should forward requests to the application's registered 
 8. **Prove the request works again.** After a five-second settling delay, five correct-content probes run at two-second intervals. Each must be healthy and finish within 1,500 ms. If k6 is still running, the worker also requires at least 20 measured application requests and an error ratio no greater than 5% in the trailing ten-second window.
 9. **Record the outcome.** Only after those checks does the incident become `recovered`. PostgreSQL stores the outcome, probe observations, load-verification flag, measurements, and elapsed time. The console receives the new timeline events.
 
-When k6 is inactive, V1 can complete a **probe-only recovery**, recorded with `under_load: false`. Use continuing k6 traffic for the full hackathon demonstration; probe-only recovery does not establish recovery under load.
+When k6 is inactive, V1 can complete a **probe-only recovery**, recorded with `under_load: false`. Use continuing k6 traffic for the full under-load demonstration; probe-only recovery does not establish recovery under load.
 
 ```mermaid
 sequenceDiagram
@@ -626,7 +626,7 @@ Inspect diagnostics locally and redact sensitive content before sharing. See [ob
 
 ## Challenge alignment
 
-| Hackathon requirement | Demonstrated implementation |
+| System requirement | Demonstrated implementation |
 | --- | --- |
 | Monitor workflows and detect errors/unexpected outcomes | Repeated correct-content probes detect failure of the target's request-serving workflow |
 | Analyze logs or execution data for likely cause | Loki logs, Prometheus context, probe observations, and registered configuration feed the model |
